@@ -25,6 +25,7 @@
     margin: auto;
     padding-top: 10px;
     padding-bottom: 8px;
+    height: 100vh;
     
 }
 .left_in_con{
@@ -32,9 +33,9 @@
 }
 .self_image{
     background-image: url(image/1.jpg);
-    width: 40%;
+    width: 50%;
     margin: auto;
-    height: 120px;
+    height: 20vh;
     background-size: cover;
     border-radius: 50%;
     transform: scale(1);
@@ -339,6 +340,7 @@
     color: white;
     border: 0px solid red;
     margin-top:0px;
+    margin-left: 20px;
 }
 .main_skill{
     text-align: center;
