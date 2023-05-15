@@ -1,0 +1,499 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.main_header{
+    border: 1px solid red;
+    background-color: black;
+    width: 100%;
+    position: relative;
+}
+.left{
+    width: 23%;
+    border: 0px solid white;
+    height: auto;
+    background-color: #1a1a1a;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+}
+.left_in{
+    width: 90%;
+    border: 0px solid pink;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    height: 100vh;
+    
+}
+.left_in_con{
+    margin-top: 20px;
+}
+.self_image{
+    background-image: url(image/1.jpg);
+    width: 50%;
+    margin: auto;
+    height: 20vh;
+    background-size: cover;
+    border-radius: 50%;
+    transform: scale(1);
+    border:5px groove #e024f9;
+    transition: 1s;
+}
+.self_image:hover{
+    transform: scale(1.1);
+}
+.self_name{
+    color: white;
+    text-align: center;
+    border: 0px solid red;
+    margin: 15px 0px 30px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.self_deg{
+    color: white;
+    text-align: center;
+    border: 0px solid red;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.nav_bar{
+    width: 100%;
+    border: 0px dotted white    ;
+}
+.item{
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+    border-radius: 20px;
+    border: 0px solid red;
+    margin-bottom: 20px;
+    background-color: #333;
+    text-align: center;
+    box-shadow: rgba(73, 73, 89, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.item img{
+    width: auto;
+    height: 20px;
+    background-size: cover;
+}
+.item span a{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.item:hover{
+    background-color: #e024f9;
+}
+/* -------------------content part css is here and nav bar is over here -------- */
+.content_part{
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+.content_part1{
+   width: 23%;
+}
+.content_part2{
+    width: 78%;
+    border: 0px solid pink;
+}
+.self_content{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+}
+.hi{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.self_me{
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 10px;
+
+}
+.self_me span{
+    color: #E024F9;
+    font-family: sans-serif;
+}
+.self_about p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-align: justify;
+    padding: 15px 0px 30px 0px;
+}
+.head_icon{
+    width: 100%;
+    border: 0px solid red;
+    display: flex;
+    margin-bottom: 0px;
+}
+.head_icon img{
+    width: 100px;
+    height: 70px;
+    transition: 1s;
+}
+.head_icon img:hover{
+    transform: rotate(20deg);
+
+}
+.about{
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    border: 0px solid red;
+}
+.main_about{
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.main_about img{
+    width: 100px;
+    height: 70px;
+    position: relative;
+    top: 10px;
+    animation: kapil 1s infinite;
+
+}
+    @keyframes kapil {
+        from {transform: scale(1);}
+        to {transform: scale(0.9);}
+      }
+    
+.main_about span{
+    color: #E024F9;
+}
+.about_flex{
+    width:100%;
+    display: flex;
+    margin: 10px 0px 0px 0px;
+}
+.about_one{
+    width: 50%;
+    border: 0px solid red;
+    margin-bottom:0px;
+}
+.about_two{
+    width: 50%;
+    border: 0px solid red;
+}
+.about_name{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    margin:30px 0px 0px 0px;
+}
+.about_name_one{
+    width: 30%;
+    border: 0px solid red;
+}
+.about_name_two{
+    width: 70%;
+    border: 0px solid red;
+    color: #E024F9;
+}
+.about_second{
+    display: flex;
+    width:100% ;
+}
+.about_second_one {
+    width: 50%;
+    border: 0px solid wheat;
+}
+.about_second_two{
+    width: 50%;
+    border: 0px solid blue;
+}
+.about_box{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    background-color: #333;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.about_box1{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.about_box12{
+    font-size: 25px;
+}
+.about_box:hover{
+    background-color: #E024F9;
+}
+.item_down{
+    width: 50%;
+    border: 0px solid red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 25px 0px 50px 0px;
+}
+/* ----------------about css is closed here ----------- */
+
+/* ---------------education css is here ------------------ */
+.edu{
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: 0px solid red;
+}
+.main_edu{
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.main_edu img{
+    width: 100px;
+    height: 70px;
+    position: relative;
+    top: 10px;
+    animation: kapil 1s infinite;
+
+}
+    @keyframes kapil {
+        from {transform: scale(1);}
+        to {transform: scale(0.9);}
+      }
+    
+.main_edu span{
+    color: #E024F9;
+}
+.main_edu_part{
+    width: 80%;
+    border: 0px solid red;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+.main_edu_one{
+    width: 50%;
+    border-left: 1px solid white;
+    margin: 50px 0px 0px 0px;
+}
+.main_edu_two{
+    width: 50%;
+    margin-top: 0px;
+    border-left: 1px solid white;
+    margin: 50px 0px 80px 0px;
+}
+.main_inner{
+    width: 70%;
+    margin:auto;
+    border: 0px solid white;
+    position: relative;
+}
+.main_2014{
+    border: 0px solid red;
+    background-color: #333;
+    display: table;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 15px;
+}
+.main_high{
+    font-size: 25px;
+    margin-bottom: 015px;
+}
+.main_name{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.edu_img{
+    position: absolute;
+    left: -100px;
+    top: -20px;
+    width: 60px;
+    height: 60px;
+    background-color: #E024F9;
+    border-radius: 50%;
+    background-size: cover;
+}
+.edu_img2{
+    background-image: url(image/edu1.svg);
+    background-size: cover; 
+    width: 50px;
+    height: 50px;
+}
+/* -------------education css is closed here ---------------------- */
+/* -------------------skill css is here -------------------------------- */
+.skill{
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: 0px solid red;
+    margin-top:0px;
+    margin-left: 20px;
+}
+.main_skill{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.main_skill img{
+    width: 100px;
+    height: 70px;
+    top: 10px;
+    animation: kapil 1s infinite;
+
+}
+    @keyframes kapil {
+        from {transform: scale(1);}
+        to {transform: scale(0.9);}
+      }
+    
+.main_skill span{
+    color: #E024F9;
+}
+.main_skill_con{
+    width: 70%;
+    margin: auto;
+    border: 0px solid red;
+    margin-top: 40px;
+}
+.main_con{
+    margin-top: 20px;
+}
+.skill_html{
+    border: 0px solid white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.progress{
+    width: 100%;
+    height: 30px;
+    border: 0px solid white;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    background-color: white;
+}
+.progress_in{
+    width: 80%;
+    height: 30px;
+    background-color: #E024F9;
+    border-radius: 50px;
+}
+
+/* ----------------------skill css is closed ------------------------------- */
+/* --------------------------contact css is here --------------------- */
+.contact{
+    width:100%;
+    display: flex;
+    margin: 80px 0px 50px 0px;
+    border: 0px solid red;
+}
+.contact_one{
+    width: 50%;
+    border: 0px solid white;
+}
+.contact_two{
+    width: 50%;
+    border: 0px solid red;
+}
+.contact_left{
+    width: 80%;
+    margin: auto;
+}
+.contact_info{
+    margin-top: 100px;
+    font-size:30px;
+    display: table;
+    border: 0px solid red;
+    background-color: #E024F9;
+    color: #333;
+    padding: 10px 10px 10px 10px;
+}
+.contact_emil{
+    font-size: 20px;
+    padding: 20px 0px 10px 0px;
+}
+.contact_emil img{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+.contact_right{
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+}
+.form_name{
+    width: 90%;
+    background-color: #333;
+    padding: 10px 0px 10px 10px;
+    font-size: 21px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+input{
+    border: none;
+}
+.btn{
+    background-color: #333;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    padding:0px 20px 10px 20px
+}
+.btn img{
+    width: 100px;
+    height: 40px; 
+    position: relative; 
+    top: 10px;
+}
+
+
+/* --------------------contact css is closed ------------------------------- */
+
+/* -----------------portfolio css is here ----------------------- */
+.portfolio{
+    width: 100%;
+    border: 0px solid red;
+    margin-top: 30px;
+}
+.portfolio_inner{
+    width: 80%;
+    margin: auto;
+    border: 0px solid white;
+}
+.portfolio_inner_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.port_image{
+    width: 35%;
+}
+.port_image img{
+    width: 350px;
+    height: auto;
+    border: 0px solid red;
+    transform: scale(0.8);
+    overflow: hidden;
+    transition: 2s;
+}
+.port_image img:hover{
+    transform: scale(1);
+}
+
+
+/* -------------------portfolio css is closed ----------------------- */
